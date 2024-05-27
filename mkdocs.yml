@@ -2,3 +2,19 @@ site_name: PepsWiki
 site_url: https://julienpeps.github.io/Wiki
 theme:
   name: material
+  palette:
+    scheme: slate
+    language: en
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.indexes
+    - search.suggest
+    - content.code.copy
+plugins:
+  - search
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
