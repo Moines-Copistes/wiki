@@ -1,5 +1,12 @@
 site_name: PepsWiki
 site_url: https://julienpeps.github.io/Wiki
+copyright: Copyright &copy; 2024 Julien Pepinster
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/julienpeps/
+    - icon: fontawesome/brands/github
+      link: https://github.com/julienpeps
 theme:
   name: material
   palette:
