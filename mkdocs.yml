@@ -10,9 +10,11 @@ extra:
 theme:
   name: material
   palette:
+    primary: black
     scheme: slate
     language: en
   features:
+    - navigation.tabs
     - navigation.instant
     - navigation.tracking
     - navigation.sections

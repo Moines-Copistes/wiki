@@ -1,3 +1,3 @@
-# Welcome to PepsWiki
+# Home
 
-These are my personal notes focused on ethical hacking.
+This is mainly my personal hacking/pentesting notes. Feel free to browse and grab what you need.
