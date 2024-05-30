@@ -1,12 +1,5 @@
-site_name: PepsWiki
-site_url: https://julienpeps.github.io/Wiki
-copyright: Copyright &copy; 2024 Julien Pepinster
-extra:
-  social:
-    - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/julienpeps/
-    - icon: fontawesome/brands/github
-      link: https://github.com/julienpeps
+site_name: Moines Copistes - Wiki
+site_url: https://moines-copistes.github.io/Wiki
 theme:
   name: material
   palette:
@@ -22,6 +15,8 @@ theme:
     - search.suggest
     - content.code.copy
     - content.tabs.link
+extra_css:
+  - stylesheets/extra.css
 plugins:
   - search
 markdown_extensions:

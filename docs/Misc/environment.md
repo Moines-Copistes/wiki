@@ -1,5 +1,8 @@
 # My Setup
 
+> Written by [Julienpeps](/Wiki/#authors)
+
+
 This page will give you an overview of the environment I use in my daily hacking activites.
 
 To give you some context, my job focuses primarly on web applications and infrastructure penetration testing, but I am also active on Hack the Box and CTFs.
