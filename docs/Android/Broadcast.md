@@ -21,7 +21,7 @@ Broadcast is a messaging system that allows applications and the system to send 
 
 The intent-filter is the event that the broadcast is subscribed to
 ```bash
-am broadcast -a <intent-filter> -n <package/.BroadcastActivity>
+am broadcast -a <intent-filter>
 ```
 
 ## Sniff a broadcast using Drozer
