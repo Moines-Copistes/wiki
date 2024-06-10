@@ -17,24 +17,6 @@ The Master File Table (MFT) in the NTFS filesystem is a "database" that contains
     - **Extent Information**: Details about the contiguous or fragmented extents of the file.
 5. **File Content (for small files)**:
     - For small files, the actual content might be stored directly within the MFT entry, referred to as resident data.
-### MFT Entry Structure
-
-An MFT entry is typically 1 KB in size and consists of several attributes, each describing different aspects of the file or directory:
-
-1. **$STANDARD_INFORMATION**:
-    - Contains basic metadata like timestamps and file attributes.
-2. **$FILE_NAME**:
-    - Stores the file name and the parent directory reference.
-3. **$DATA**:
-    - Describes the location of the file’s data on the disk. This attribute can be either resident (stored within the MFT entry) or non-resident (stored in external clusters).
-4. **$ATTRIBUTE_LIST** (if present):
-    - Lists additional attributes if they do not fit within the main MFT entry.
-5. **$OBJECT_ID** (optional):
-    - Used by distributed link tracking services.
-6. **$SECURITY_DESCRIPTOR**:
-    - Contains security information, including ownership and permissions.
-7. **$VOLUME_INFORMATION**:
-    - Specific to volume metadata, not individual files.
 
 Each MFT record is 1024 bytes in size. If a file on disk is smaller than 1024 bytes, it can be stored directly in the MFT entry. These are called MFT Resident files.
 
@@ -55,7 +37,6 @@ Opening the parsed file with VS Code reveals it contains around 388,000 lines, m
 
 To streamline the process, use [Timeline Explorer](https://f001.backblazeb2.com/file/EricZimmermanTools/net6/TimelineExplorer.zip). This tool helps display all the files and information needed:
 
-![[Pasted image 20240610110609.png]]
 ### Key Informations Available in Timeline Explorer:
 - Filename
 - File path
@@ -65,7 +46,6 @@ To streamline the process, use [Timeline Explorer](https://f001.backblazeb2.com/
 
 A variety of sorting options are available, making it very useful for investigations. You can sort by extension, time, and more.
 
-### Step 3: Recovering file from Hex 
 ### Step 3: Recovering a File from Hex
 
 Now that you've found an interesting file, you may want to extract it. Here’s how you can do that:
