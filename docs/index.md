@@ -36,4 +36,17 @@ Feel free to exlore and grab whatever you need.
     [:simple-hackthebox:{ .lg .mr-2 }](https://app.hackthebox.com/users/337019)
     [:fontawesome-solid-vial:{ .lg }](https://pentesterlab.com/profile/900018148a6d937bb8f78657b0)
 
+
+-   __YannisK__
+    
+    ---
+
+    Cyber Security Consultant @ Thales
+
+    ---
+
+    [:fontawesome-brands-linkedin:{ .lg .mr-2 }](https://www.linkedin.com/in/yanniskireche/)
+    [:simple-rootme:{ .lg .mr-2 }](https://www.root-me.org/yannisk)
+    [:simple-hackthebox:{ .lg .mr-2 }](https://app.hackthebox.com/users/1243912)
+    
 </div>
