@@ -13,7 +13,7 @@ Feel free to exlore and grab whatever you need.
   
     ---
 
-    Penetration Tester @ NTT Data
+    Penetration Tester @ NTT
 
     ---
 
@@ -27,7 +27,7 @@ Feel free to exlore and grab whatever you need.
     
     ---
 
-    Cyber Security Consultant @ Thales
+    Penetration Tester @ Nviso
 
     ---
 
@@ -41,7 +41,7 @@ Feel free to exlore and grab whatever you need.
     
     ---
 
-    Cyber Security Consultant @ Thales
+    Penetration Tester @ Nviso
 
     ---
 
